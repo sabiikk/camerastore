@@ -1,0 +1,22 @@
+.product-image {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.05);
+   
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  h3 {
+    font-weight: bold;
+  }
+  button {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }

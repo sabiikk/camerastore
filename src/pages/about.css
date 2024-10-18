@@ -1,0 +1,25 @@
+.containers {
+    max-width: 800px;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card1 {
+    border: none; /* Optional: Remove border from cards */
+  }
+  
+  .card1-img-top {
+    border-radius: 0.5rem; /* Rounded corners for images */
+  }
+  
