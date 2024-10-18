@@ -25,22 +25,25 @@ function Home() {
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
           <video muted autoPlay loop playsInline
-          src="/videos/carousal1.mp4"
+         
+          src="/videos/carousal4.mp4"
           />
             {/* <source src="src/assets/videoplayback.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
         </SwiperSlide>
+
         <SwiperSlide>
           <video muted autoPlay loop playsInline
-          src="/videos/carousal2.mp4"
+          src="/videos/carousal3.mp4"
           />
             {/* <source src="src/assets/videoplayback (1).mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
         </SwiperSlide>
+
         <SwiperSlide>
-          <video muted autoPlay loop playsInline  src="/videos/carousal3.mp4"/>
+          <video muted autoPlay loop playsInline  src="/videos/carousal2.mp4"/>
             {/* <source
               src="src/assets/carousal3.mp4"
               type="video/mp4"
@@ -48,14 +51,16 @@ function Home() {
             Your browser does not support the video tag.
           </video> */}
         </SwiperSlide>
+
         <SwiperSlide>
-          <video muted autoPlay loop playsInline src="/videos/carousal4" />
+          <video muted autoPlay loop playsInline src="/videos/carousal1.mp4" />
             {/* <source src="src/assets/carousal4" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
         </SwiperSlide>
+
         <SwiperSlide>
-          <video muted autoPlay loop playsInline  src="/videos/carousal1.mp4" />
+          <video muted autoPlay loop playsInline  src="/videos/carousal4.mp4" />
             {/* <source
               src="src/assets/carousal1.mp4"
               type="video/mp4"
