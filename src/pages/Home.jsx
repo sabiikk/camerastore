@@ -24,47 +24,51 @@ function Home() {
 
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
+          <video muted autoPlay loop playsInline
+          src="/videos/carousal1.mp4"
+          />
+            {/* <source src="src/assets/videoplayback.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video> */}
+        </SwiperSlide>
+        <SwiperSlide>
+          <video muted autoPlay loop playsInline
+          src="/videos/carousal2.mp4"
+          />
+            {/* <source src="src/assets/videoplayback (1).mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video> */}
+        </SwiperSlide>
+        <SwiperSlide>
+          <video muted autoPlay loop playsInline  src="/videos/carousal3.mp4"/>
+            {/* <source
+              src="src/assets/carousal3.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video> */}
+        </SwiperSlide>
+        <SwiperSlide>
+          <video muted autoPlay loop playsInline src="/videos/carousal4" />
+            {/* <source src="src/assets/carousal4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video> */}
+        </SwiperSlide>
+        <SwiperSlide>
+          <video muted autoPlay loop playsInline  src="/videos/carousal1.mp4" />
+            {/* <source
+              src="src/assets/carousal1.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video> */}
+        </SwiperSlide>
+        {/* <SwiperSlide>
           <video muted autoPlay loop playsInline>
             <source src="src/assets/videoplayback.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </SwiperSlide>
-        <SwiperSlide>
-          <video muted autoPlay loop playsInline>
-            <source src="src/assets/videoplayback (1).mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </SwiperSlide>
-        <SwiperSlide>
-          <video muted autoPlay loop playsInline>
-            <source
-              src="src/assets/Nikon Z 8 _ Product tour of our new full-frame hybrid camera (1).mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </SwiperSlide>
-        <SwiperSlide>
-          <video muted autoPlay loop playsInline>
-            <source src="src/assets/videoplayback (2).mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </SwiperSlide>
-        <SwiperSlide>
-          <video muted autoPlay loop playsInline>
-            <source
-              src="src/assets/Nikon Z 8 _ Product tour of our new full-frame hybrid camera (1).mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </SwiperSlide>
-        <SwiperSlide>
-          <video muted autoPlay loop playsInline>
-            <source src="src/assets/videoplayback.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>Slide 5</SwiperSlide>
     <SwiperSlide>Slide 6</SwiperSlide>
     <SwiperSlide>Slide 7</SwiperSlide>
