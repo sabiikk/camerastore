@@ -163,6 +163,37 @@ function Allproduct() {
   return (
     <>
     <Header/>
+    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <input
+        type="text"
+        placeholder="Search..."
+        // value={query}
+        // onChange={handleInputChange}
+        style={{
+          padding: '8px',
+          width: '400px',
+          borderRadius: '4px',
+          border: '1px solid #ddd',
+        }}
+      />
+      <button
+        // onClick={handleSearch}
+        style={{
+          padding: '8px 12px',
+          marginLeft: '5px',
+          borderRadius: '4px',
+          border: 'none',
+          backgroundColor: '#007bff',
+          color: '#fff',
+          cursor: 'pointer',
+        }}
+      >
+        Search
+      </button>
+    </div>
+
+
+
     <div className="container mt-5">
       <h3 className="text-center mb-4"> <span style={{color:'red'}}>GoPro</span> ACTION CAMERA</h3>
       <div className="row">

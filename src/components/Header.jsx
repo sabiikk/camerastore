@@ -22,13 +22,15 @@ function Header() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/product">All Products</Link></li>
+        <li><Link to="/addproduct">ADD Products</Link></li>
         <li><Link to="/cart">Cart</Link></li>
       </ul>
       <div className="icons">
         <button className="login-btn">
           <Link to="/login" style={{ textDecoration: 'none', color: 'white' }}>Login</Link>
         </button>
-        <button className="signup-btn">Profile</button>
+        <button className="signup-btn"><Link to="/profile"  style={{ textDecoration: 'none', color: 'white' }} >
+        Profile  </Link> </button>
       </div>
     </nav>
     </div>
